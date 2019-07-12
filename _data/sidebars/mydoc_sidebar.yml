@@ -74,6 +74,10 @@ entries:
       url: /hexbin.html
       output: web, pdf
 
+    - title: Weather Station
+      url: http://weather.byui.edu/romney%20station/index.html
+      output: web, pdf
+
     - title: Apptitude Quiz
       url: https://byui.instructure.com\/courses\/58656\/quizzes\/829691
       output: web, pdf
