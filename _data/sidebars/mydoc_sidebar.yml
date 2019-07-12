@@ -63,11 +63,11 @@ entries:
     output: web, pdf
     folderitems:
     - title: Installing Python
-      url: /slides.html
+      url: /installingPython.html
       output: web, pdf
 
     - title: Python Book
-      url: /files\/equation_sheet.pdf
+      external_url: https://byuiphysics.github.io/pythonbook/
       output: web, pdf
 
     - title: Numerical
