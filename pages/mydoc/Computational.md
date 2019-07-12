@@ -1,0 +1,26 @@
+---
+title: Computational Emphasis
+keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
+last_updated: July 9, 2019
+tags: [course_docs]
+summary: "Description of Computational emphasis area with recommended graduation plan and other notes."
+sidebar: mydoc_sidebar
+permalink: Computational.html
+folder: course_docs
+---
+
+
+## Emphasis Description
+
+
+## Graduation Plan
+
+
+
+
+[Download PDF][download]
+{% include image.html file="ComputationalEmphasis.png" url="https://byuiphysics.github.io/main/images/ComputationalEmphasis.pdf"  %}
+
+[download]: ../files/ComputationalEmphasis.pdf
+
+

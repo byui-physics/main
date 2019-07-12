@@ -22,19 +22,41 @@ entries:
   - title: Emphasis Areas
     output: web, pdf
     folderitems:
+    - title: Astronomy
+      url: /Astronomy.html
+      output: web, pdf
+
+    - title: Biophysics
+      url: /Biophysics.html
+      output: web, pdf
+
+    - title: Chemistry
+      url: /Chemistry.html
+      output: web, pdf
+
     - title: Computational
-      url: /contact.html
+      url: /Computational.html
       output: web, pdf
 
     - title: Engineering
-      url: /syllabus.html
+      url: /Engineering.html
       output: web, pdf
-      type: homepage
 
-    - title: Medical 
-      url: /schedule.html
+    - title: Geo Physics
+      url: /Geophysics.html
       output: web, pdf
-      type: homepage
+
+    - title: Mathematical
+      url: /Mathematical.html
+      output: web, pdf
+
+    - title: Medical
+      url: /Medical.html
+      output: web, pdf
+
+    - title: Pre-Medical
+      url: /Premed.html
+      output: web, pdf
 
 
   - title: General Resources
