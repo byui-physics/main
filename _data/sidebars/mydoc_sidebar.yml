@@ -1,0 +1,64 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: 
+  version: 
+  folders:
+
+  - title: 
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Emphasis Areas
+    output: web, pdf
+    folderitems:
+    - title: Computational
+      url: /contact.html
+      output: web, pdf
+
+    - title: Engineering
+      url: /syllabus.html
+      output: web, pdf
+      type: homepage
+
+    - title: Medical 
+      url: /schedule.html
+      output: web, pdf
+      type: homepage
+
+
+  - title: General Resources
+    output: web, pdf
+    folderitems:
+    - title: Installing Python
+      url: /slides.html
+      output: web, pdf
+
+    - title: Python Book
+      url: /files\/equation_sheet.pdf
+      output: web, pdf
+
+    - title: Numerical
+      url: /hexbin.html
+      output: web, pdf
+
+    - title: Apptitude Quiz
+      url: https://byui.instructure.com\/courses\/58656\/quizzes\/829691
+      output: web, pdf
+  - title: Knowledge Assessments
+    output: web, pdf
+    folderitems:
+    - title: Calculus
+      url: 
+    - title: Python/Coding
+      url: 
