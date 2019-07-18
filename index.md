@@ -1,9 +1,14 @@
 ---
 title: "Welcome to the Physics Department"
 keywords: sample homepage
-tags: [landing_page]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: Here you will find resources to help you successfully complete your degree.
+summary: The information contained herein is intended to serve current physics majors at BYU-Idaho.  
 ---
 
+
+Most of your questions about classes, registration, emphasis areas, career opportunities, etc can be answered by your faculty mentor and/or the [student handbook][handbook].  Here you will find descriptions of research opportunities and other resources/links that are generally useful.
+
+
+
+[handbook]: www.byui.edu/documents/physics/Handbook2.pdf

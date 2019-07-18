@@ -19,44 +19,53 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Emphasis Areas
+  - title: Research Opportunities
     output: web, pdf
     folderitems:
-    - title: Astronomy
-      url: /Astronomy.html
+    - title: Balloon Team
+      url: /Balloon.html
       output: web, pdf
 
-    - title: Biophysics
-      url: /Biophysics.html
+    - title: Materials Simulation
+      url: /materials.html
       output: web, pdf
 
-    - title: Chemistry
-      url: /Chemistry.html
+    - title: Nuclear Reaction Modeling
+      url: /nuclear.html
       output: web, pdf
 
-    - title: Computational
-      url: /Computational.html
+    - title: Physics Education Research
+      url: /per.html
       output: web, pdf
 
-    - title: Engineering
-      url: /Engineering.html
+    - title: Surface Physics
+      url: /surface.html
       output: web, pdf
 
-    - title: Geo Physics
-      url: /Geophysics.html
+    - title: Vacuum Physics
+      url: /vacuum.html
       output: web, pdf
 
-    - title: Mathematical
-      url: /Mathematical.html
+    - title: Atmospheric Optics
+      url: /atmosphere.html
       output: web, pdf
 
-    - title: Medical
-      url: /Medical.html
+    - title: Positron Annihilation
+      url: /positron.html
       output: web, pdf
 
-    - title: Pre-Medical
-      url: /Premed.html
+    - title: Astronomical Observations
+      url: /astronomy.html
       output: web, pdf
+
+    - title: Protein Folding
+      url: /protein.html
+      output: web, pdf
+
+    - title: Microwave Scattering
+      url: /microwave.html
+      output: web, pdf
+
 
 
   - title: General Resources
@@ -74,9 +83,6 @@ entries:
       url: /hexbin.html
       output: web, pdf
 
-    - title: Apptitude Quiz
-      url: https://byui.instructure.com\/courses\/58656\/quizzes\/829691
-      output: web, pdf
   - title: Knowledge Assessments
     output: web, pdf
     folderitems:

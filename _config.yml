@@ -3,10 +3,11 @@ repository: byuiphysics.github.io/PH123
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: BYU - Idaho Physics
+topnav_title: |
+   BYU - Idaho Physics  
 # this appears on the top navigation bar next to the home button
 
-site_title: BYU - Idaho Physics
+site_title: BYU - Idaho Physics (Github version)
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: 
