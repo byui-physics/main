@@ -34,6 +34,10 @@ entries:
       url: /nuclear.html
       output: web, pdf
 
+    - title: Acoustics
+      url: /acoustics.html
+      output: web, pdf
+
     - title: Physics Education Research
       url: /per.html
       output: web, pdf
