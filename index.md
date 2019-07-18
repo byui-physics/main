@@ -11,4 +11,4 @@ Most of your questions about classes, registration, emphasis areas, career oppor
 
 
 
-[handbook]: www.byui.edu/documents/physics/Handbook2.pdf
+[handbook]: https://www.byui.edu/documents/physics/Handbook2.pdf
