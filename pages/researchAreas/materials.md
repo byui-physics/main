@@ -19,5 +19,5 @@ Here is an [example link][link]
 
 
 
-[hea]: https://byuiphysics.github.io/main/pages/researchAreas/materials/hea.html  
+[hea]: https://byuiphysics.github.io/main/hea.html  
 [link]: https://physics.aps.org  
