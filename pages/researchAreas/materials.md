@@ -7,6 +7,7 @@ toc: true
 
 
 ## Overview
+
 Here is an [example link][link]
 
 
@@ -15,3 +16,5 @@ Here is an [example link][link]
 
 ## Projects
 
+[High-entropy alloys][hea.html]
+[hea]: https://physics.aps.org
