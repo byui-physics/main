@@ -127,7 +127,7 @@ You will need to copy the following files to your bin
 
 ### High Entropy Alloys (HEA)
 
-[criteria2015][hea]
+[Best Candidates Paper][criteria2015]
 
 
 
