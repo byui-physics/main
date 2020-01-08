@@ -114,10 +114,10 @@ pip install -e ~/codes/aBuild
 You will need to copy the following files to your bin
 
 ``` bash
-~/fsl\_groups/fslg\_byuimaterials/vasp6\_serial
-~/fsl\_groups/fslg\_byuimaterials/mlp
-~/fsl\_groups/fslg\_byuimaterials/enum.x
-~/fsl\_groups/fslg_byuimaterials/makestr.x
+~/fsl_groups/fslg_byuimaterials/vasp6_serial
+~/fsl_groups/fslg_byuimaterials/mlp
+~/fsl_groups/fslg_byuimaterials/enum.x
+~/fsl_groups/fslg_byuimaterials/makestr.x
 
 
 ```
