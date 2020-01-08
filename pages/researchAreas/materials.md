@@ -94,15 +94,15 @@ mkdir ~/codes
 cd ~/codes
 ```
 
-1.Register for an account on [github][gh].
-2.Navigate to B. Nelson's aBuild repository (found [here][ljnabuild])
+1.Register for an account on [github][gh].  
+2.Navigate to B. Nelson's aBuild repository (found [here][ljnabuild])  
 3.Fork B. Nelson's reposity.  This will create a copy of this code
-that is yours to edit.
+that is yours to edit.  
 4. <Back to ML> Type the following to clone your aBuild repository to
-ML:
+ML:  
 ```bash
 git clone https://github.com/lancejnelson/aBuild.git .
-```
+```  
 (make sure your replace my username with yours.)
 ## Reading
 
