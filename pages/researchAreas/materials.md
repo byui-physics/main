@@ -125,11 +125,13 @@ You will need to copy the following files to your bin
 
 ## Projects
 
-[High-entropy alloys][hea]
+### High Entropy Alloys (HEA)
+
+[criteria2015][hea]
 
 
 
-[hea]: https://byuiphysics.github.io/main/hea.html  
+[criteria2015]: https://journals.aps.org/prx/abstract/10.1103/PhysRevX.5.011041  
 [mlunixtutorial]: https://rc.byu.edu/documentation/unix-tutorial/  
 [gh]:https://www.github.com
 [ljnabuild]: https://github.com/lancejnelson/aBuild
