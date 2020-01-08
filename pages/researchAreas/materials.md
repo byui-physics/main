@@ -87,7 +87,7 @@ deactivate alloys
 
 
 
-### Obtaining a copy of aBuild
+### Obtaining/Installing a copy of aBuild
 Make a directory called codes and go into it:
 ``` bash
 mkdir ~/codes
@@ -103,7 +103,24 @@ ML:
 ```bash
 git clone https://github.com/lancejnelson/aBuild.git .
 ```  
-(make sure your replace my username with yours.)  
+(make sure you replace my username with yours.)  
+5.Install aBuild (while in your virtual environment)
+```bash
+pip install -e ~/codes/aBuild
+```
+
+
+### Copy executables
+You will need to copy the following files to your bin
+
+``` bash
+~/fsl\_groups/fslg\_byuimaterials/vasp6\_serial
+~/fsl\_groups/fslg\_byuimaterials/mlp
+~/fsl\_groups/fslg\_byuimaterials/enum.x
+~/fsl\_groups/fslg_byuimaterials/makestr.x
+
+
+```
 ## Reading
 
 ## Projects
