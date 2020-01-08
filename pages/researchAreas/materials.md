@@ -126,12 +126,15 @@ You will need to copy the following files to your bin
 ## Projects
 
 ### High Entropy Alloys (HEA)
-
 [Best Candidates Paper][criteria2015]
 
+### VASP stuff
+
+[AFLOW Pseudopotential][AFLOWpaper]
 
 
 [criteria2015]: https://journals.aps.org/prx/abstract/10.1103/PhysRevX.5.011041  
 [mlunixtutorial]: https://rc.byu.edu/documentation/unix-tutorial/  
 [gh]:https://www.github.com
 [ljnabuild]: https://github.com/lancejnelson/aBuild
+[AFLOWpaper]: http://materials.duke.edu/auro/AUROARTICULA/j.commatsci.2015.07.019.pdf
