@@ -75,6 +75,26 @@ Create the virtual environment
 virtualenv alloys 
 ```
 
+Enter the virtual environment:
+``` bash
+workon alloys 
+```
+
+You can exit the environment like this:
+``` bash
+deactivate alloys 
+```
+
+
+
+### Obtaining a copy of aBuild
+Make a directory called codes and go into it:
+``` bash
+mkdir ~/codes
+cd ~/codes
+```
+
+Register for an account on [github][gh]
 ## Reading
 
 ## Projects
@@ -85,3 +105,4 @@ virtualenv alloys
 
 [hea]: https://byuiphysics.github.io/main/hea.html  
 [mlunixtutorial]: https://rc.byu.edu/documentation/unix-tutorial/  
+[gh]:https://www.github.com
