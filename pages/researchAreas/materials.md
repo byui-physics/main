@@ -126,7 +126,7 @@ You will need to copy the following files to your bin
 ## Projects
 
 ### High Entropy Alloys (HEA)
-
+This section is for high entropy alloys
 [Best Candidates Paper][criteria2015]
 
 
