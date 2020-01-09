@@ -25,17 +25,18 @@ provide some links to some:
 
 ### Setting up your filesystem on Mary Lou
 There are a few things you need to do once you get a supercomputing
-account before you are ready to get to work  
-1- Create a `bin` folder
+account before you are ready to get to work.
+
+1. Create a `bin` folder
 ``` bash
 mkdir ~/bin
 ```
-2- Create and modify a `.bash_profile`
+2. Create and modify a `.bash_profile`
 ``` bash
 emacs ~/.bash_profile
 ```
-Add the following lines to this file:
-```
+3. Add the following lines to this file:
+``` bash
 module purge
 module load intel-compilers/2019 intel-mpi/2019 intel-mkl/2019
 module load makedepf90
@@ -52,14 +53,15 @@ source ~/environments/$1/bin/activate
 
 }
 
-alias workon='workon'
+alias workon='workon'    # this creates a macro/shortcut to enter your virtual environment
+                         # instead of typing the whole command every time
 ```
 
-Save the file:
+4. Save the file:
 ``` bash
 ctrl-x ctrl-c y
 ```
-and source the file:
+5. and source the file:
 ``` bash
 source ~/.bash_profile
 ```
@@ -122,7 +124,8 @@ You will need to copy the following files to your bin
 
 ```
 ## Reading
-
+This paper explains the algorithm used to generate derivative structures
+[Algorithm for Generating Derivative Structures][derivStr]
 ## Projects
 
 ### High Entropy Alloys (HEA)
@@ -135,3 +138,4 @@ This section is for high entropy alloys
 [mlunixtutorial]: https://rc.byu.edu/documentation/unix-tutorial/  
 [gh]:https://www.github.com
 [ljnabuild]: https://github.com/lancejnelson/aBuild
+[derivStr]: https://msg.byu.edu/papers/GLWHart_enumeration.pdf
