@@ -55,7 +55,6 @@ source ~/environments/$1/bin/activate
 
 alias workon='workon'
 ```
-(The alias command creates a shortcut to call a function)
 
 4. Save the file:
 ``` bash
