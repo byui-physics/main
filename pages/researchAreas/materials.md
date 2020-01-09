@@ -129,9 +129,12 @@ This paper explains the algorithm used to generate derivative structures
 ## Projects
 
 ### High Entropy Alloys (HEA)
-This section is for high entropy alloys
+
 [Best Candidates Paper][criteria2015]
 
+### VASP stuff
+
+[AFLOW Pseudopotential][AFLOWpaper]
 
 
 [criteria2015]: https://journals.aps.org/prx/abstract/10.1103/PhysRevX.5.011041  
@@ -139,3 +142,5 @@ This section is for high entropy alloys
 [gh]:https://www.github.com
 [ljnabuild]: https://github.com/lancejnelson/aBuild
 [derivStr]: https://msg.byu.edu/papers/GLWHart_enumeration.pdf
+[AFLOWpaper]: http://materials.duke.edu/auro/AUROARTICULA/j.commatsci.2015.07.019.pdf
+
