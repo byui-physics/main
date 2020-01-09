@@ -48,9 +48,9 @@ export ENUMX=~/bin/enum.x
 export PATH=$PATH:~/bin
 export MAKESTRX=~/bin/makestr.x
 
-function workon {
+function workon
+{
 source ~/environments/$1/bin/activate
-
 }
 
 alias workon='workon'
@@ -60,6 +60,7 @@ alias workon='workon'
 ``` bash
 ctrl-x ctrl-c y
 ```
+
 5. and source the file:
 ``` bash
 source ~/.bash_profile
