@@ -53,9 +53,9 @@ source ~/environments/$1/bin/activate
 
 }
 
-alias workon='workon'    # this creates a macro/shortcut to enter your virtual environment
-                         # instead of typing the whole command every time
+alias workon='workon'
 ```
+(The alias command creates a shortcut to call a function)
 
 4. Save the file:
 ``` bash
