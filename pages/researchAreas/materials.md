@@ -36,7 +36,7 @@ mkdir ~/bin
 emacs ~/.bash_profile
 ```  
 3. Add the following lines to this file:  
-`    
+``` bash      
 module purge  
 module load intel-compilers/2019 intel-mpi/2019 intel-mkl/2019  
 module load makedepf90  
@@ -54,7 +54,7 @@ source ~/environments/$1/bin/activate
 }  
 
 alias workon='workon'  
-`
+```  
 4. Save the file:  
 ``` bash  
 ctrl-x ctrl-c y
