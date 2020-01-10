@@ -55,12 +55,10 @@ source ~/environments/$1/bin/activate
 
 alias workon='workon'
 ```  
-
 4. Save the file:  
 ``` bash  
 ctrl-x ctrl-c y
 ```  
-
 5. and source the file:  
 ``` bash  
 source ~/.bash_profile
