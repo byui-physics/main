@@ -36,25 +36,25 @@ mkdir ~/bin
 emacs ~/.bash_profile
 ```  
 3. Add the following lines to this file:  
-``` bash    
-module purge
-module load intel-compilers/2019 intel-mpi/2019 intel-mkl/2019
-module load makedepf90
-module load libfabric
-module load python/3.7
+`    
+module purge  
+module load intel-compilers/2019 intel-mpi/2019 intel-mkl/2019  
+module load makedepf90  
+module load libfabric  
+module load python/3.7  
 
-export HISTSIZE=100000
-export ENUMX=~/bin/enum.x
-export PATH=$PATH:~/bin
-export MAKESTRX=~/bin/makestr.x
+export HISTSIZE=100000  
+export ENUMX=~/bin/enum.x  
+export PATH=$PATH:~/bin  
+export MAKESTRX=~/bin/makestr.x  
 
-function workon
-{
-source ~/environments/$1/bin/activate
-}
+function workon  
+{  
+source ~/environments/$1/bin/activate  
+}  
 
-alias workon='workon'
-```  
+alias workon='workon'  
+`
 4. Save the file:  
 ``` bash  
 ctrl-x ctrl-c y
