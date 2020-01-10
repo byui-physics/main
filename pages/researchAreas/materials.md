@@ -27,16 +27,16 @@ provide some links to some:
 There are a few things you need to do once you get a supercomputing
 account before you are ready to get to work.
 
-1. Create a `bin` folder
-``` bash
+1. Create a `bin` folder  
+``` bash  
 mkdir ~/bin
-```
-2. Create and modify a `.bash_profile`
-``` bash
+```  
+2. Create and modify a `.bash_profile`  
+``` bash  
 emacs ~/.bash_profile
-```
-3. Add the following lines to this file:
-```
+```  
+3. Add the following lines to this file:  
+``` bash    
 module purge
 module load intel-compilers/2019 intel-mpi/2019 intel-mkl/2019
 module load makedepf90
@@ -54,17 +54,17 @@ source ~/environments/$1/bin/activate
 }
 
 alias workon='workon'
-```
+```  
 
-4. Save the file:
-``` bash
+4. Save the file:  
+``` bash  
 ctrl-x ctrl-c y
-```
+```  
 
-5. and source the file:
-``` bash
+5. and source the file:  
+``` bash  
 source ~/.bash_profile
-```
+```  
 
 ### Setting up your virtual environment
 Make a directory called environments and go into that directory:
