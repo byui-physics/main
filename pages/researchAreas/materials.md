@@ -36,10 +36,9 @@ mkdir ~/bin
 2. Create and modify a `.bash_profile`  
 ``` bash  
 emacs ~/.bash_profile
-```  
-3. Add the following lines to this file
+```
 
-
+3. Add the following lines to this file  
 ``` bash
 module purge
 module load intel-compilers/2019 intel-mpi/2019 intel-mkl/2019
@@ -59,7 +58,6 @@ alias workon='workon'
 ```
 
 4. Save the file:  
-
 ``` bash  
 ctrl-x ctrl-c y
 ```  
@@ -123,9 +121,51 @@ You will need to copy the following files to your bin
 ~/fsl_groups/fslg_byuimaterials/mlp
 ~/fsl_groups/fslg_byuimaterials/enum.x
 ~/fsl_groups/fslg_byuimaterials/makestr.x
-
-
 ```
+
+### Building an MTP (Moment Tensor Potential)
+aBuild is a python package that I wrote to help automate the process
+of building a model with DFT training data.
+
+1. Enumerate derivative superstructures:  
+```bash
+python builder.py AgAu -enum
+```
+
+2. Build set of structures that defines the search space:  
+```bash
+python builder.py AgAu -setup_relax
+```
+
+3. Once step 2 finishes, there will be a job script located in fitting/mtp
+   that you can submit.  This job will attempt to relax the atoms in all of the
+   crystals.  (For the first iteration, this step will fail because we
+   haven't yet built a model.  That's ok)  
+``` bash
+cd fitting/mtp
+sbatch jobscript_relax.sh
+```
+4. Select new structures to be added to the training set:  As the
+   model relaxes the atoms, it will find that it has to extrapolate on
+   some of them.  It saves these structures and selects a subset of
+   them to be added to the training set:  
+```bash
+python builder.py AgAu -setup_select_add
+```
+
+5. Build VASP folders for the structures that were requested be added
+into the training set:
+```bash
+python builder.py AgAu -add
+```
+
+6. Compile all of the VASP data into the training set so we can train
+the model:
+```bash
+python builder.py AgAu -setup_train
+```
+
+
 ## Reading
 This paper explains the algorithm used to generate derivative structures
 [Algorithm for Generating Derivative Structures][derivStr]
