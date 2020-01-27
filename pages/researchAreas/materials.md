@@ -204,6 +204,10 @@ This paper explains the algorithm used to generate derivative structures
 
 [Best Candidates Paper][criteria2015]
 
+
+### Moment Tensor Potentials Reading Material
+
+[MTP Paper][MTP]
 ### VASP stuff
 
 [AFLOW Pseudopotential][AFLOWpaper]
@@ -215,4 +219,4 @@ This paper explains the algorithm used to generate derivative structures
 [ljnabuild]: https://github.com/lancejnelson/aBuild
 [derivStr]: https://msg.byu.edu/papers/GLWHart_enumeration.pdf
 [AFLOWpaper]: http://materials.duke.edu/auro/AUROARTICULA/j.commatsci.2015.07.019.pdf
-
+[MTP]: https://www.sciencedirect.com/science/article/pii/S0927025618306372
