@@ -132,7 +132,7 @@ automates file building and information extraction that is constantly
 being done during the model-building process.  Below you will find the
 steps needed to build an MTP, using aBuild as the automation tool.
 
-1. Enumerate derivative superstructures: (This is only done once per
+1- Enumerate derivative superstructures: (This is only done once per
 system)  
 ```bash
 python builder.py AgAu -enum
@@ -142,12 +142,12 @@ After this completes, you should have a folder called `Enum` with the
 enumeration files in there. (`struct_enum.out.<lattice>`)  You should
 only have to do this step once per system.  
 
-2. Build set of structures that defines the search space:  
+2- Build set of structures that defines the search space:  
 ```bash
 python builder.py AgAu -setup_relax
 ```
 
-When this finishes, you will have a folder called fitting/mtp.  Inside
+When this finishes, you will have a folder called `fitting/mtp`.  Inside
 that folder you will notice the following files:
 ```bash
 to_relax.cfg
