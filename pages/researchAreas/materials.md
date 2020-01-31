@@ -139,7 +139,8 @@ python builder.py AgAu -enum
 ```
 
 After this completes, you should have a folder called `Enum` with the
-enumeration files in there.  You should only have to do this step once per system.
+enumeration files in there. (`struct_enum.out.<lattice>`)  You should
+only have to do this step once per system.  
 
 2. Build set of structures that defines the search space:  
 ```bash
