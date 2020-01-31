@@ -232,6 +232,12 @@ drive, like this:
 umount sc
 ```
 
+## Installing AFLOW
+
+The instructions for installing aflow can be found
+[here][AFLOWInstall].  Follow the instructions on slides 13 and 14 if
+installing on MaryLou.
+
 
 ## Reading
 This paper explains the algorithm used to generate derivative structures
@@ -257,4 +263,6 @@ This paper explains the algorithm used to generate derivative structures
 [ljnabuild]: https://github.com/lancejnelson/aBuild
 [derivStr]: https://msg.byu.edu/papers/GLWHart_enumeration.pdf
 [AFLOWpaper]: http://materials.duke.edu/auro/AUROARTICULA/j.commatsci.2015.07.019.pdf
-[MTP]: https://www.sciencedirect.com/science/article/pii/S0927025618306372
+[MTP]:
+https://www.sciencedirect.com/science/article/pii/S0927025618306372
+[AFLOWInstall]: http://materials.duke.edu/AFLOW/AFLOW_WORKSHOP/1_aflow_school_2019_introduction.pptx
