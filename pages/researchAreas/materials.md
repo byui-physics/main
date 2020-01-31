@@ -124,18 +124,39 @@ You will need to copy the following files to your bin
 ```
 
 ### Building an MTP (Moment Tensor Potential)
-aBuild is a python package that I wrote to help automate the process
-of building a model with DFT training data.
+Constructing a Moment Tensor potential is an iterative process
+wherein the model is repeatedly refined and improved until it predicts
+well across the entire search space.  To make this iterative process
+easier, a python package called `aBuild` has been built.  aBuild
+automates file building and information extraction that is constantly
+being done during the model-building process.  Below you will find the
+steps needed to build an MTP, using aBuild as the automation tool.
 
-1. Enumerate derivative superstructures:  
+1. Enumerate derivative superstructures: (This is only done once per
+system)  
 ```bash
 python builder.py AgAu -enum
 ```
+
+After this completes, you should have a folder called `Enum` with the
+enumeration files in there.  You should only have to do this step once per system.
 
 2. Build set of structures that defines the search space:  
 ```bash
 python builder.py AgAu -setup_relax
 ```
+
+When this finishes, you will have a folder called fitting/mtp.  Inside
+that folder you will notice the following files:
+```bash
+to_relax.cfg
+relax.ini
+pot.mtp
+train.cfg
+jobscript_relax.sh
+```
+You are now ready to relax.  
+  
 
 3. Once step 2 finishes, there will be a job script located in fitting/mtp
    that you can submit.  This job will attempt to relax the atoms in all of the
@@ -153,11 +174,21 @@ sbatch jobscript_relax.sh
 python builder.py AgAu -setup_select_add
 ```
 
+This will only take a few seconds to run and when it's finished there
+will be a new job submission file located in `fitting/mtp` called:
+`jobscript_select.sh`. Submit it and wait for it to complete.  This
+could take several hours to complete and in later iterations, this job
+may need the better part of a day to complete.
+
 5. Build VASP folders for the structures that were requested be added
 into the training set:
 ```bash
 python builder.py AgAu -add
 ```
+This will generate several hundred folders inside of the folder
+`training_set`.  Each folder has the needed files to perform a
+quantum-mechanical calculation for a different crystal.  There will
+also be a job submission file located in `training_set`.  
 
 6. Compile all of the VASP data into the training set so we can train
 the model:
