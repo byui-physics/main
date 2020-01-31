@@ -204,8 +204,8 @@ the model to the data.
 7. Return to step #2 and iterate.
 
 ### Editing ML files remotely
-When you are writing code on ML sometimes it's nice to edit those
-files on your local machine.  Here is how you do that.
+When you are writing code on ML sometimes it's nice to use a local
+editor, instead of in-terminal version of emacs, to edit those files.  Here is how you do that.
 
 1.  Create a folder on your local machine.  Call it whatever you want  
 ```bash
@@ -259,10 +259,9 @@ This paper explains the algorithm used to generate derivative structures
 
 [criteria2015]: https://journals.aps.org/prx/abstract/10.1103/PhysRevX.5.011041  
 [mlunixtutorial]: https://rc.byu.edu/documentation/unix-tutorial/  
-[gh]:https://www.github.com
-[ljnabuild]: https://github.com/lancejnelson/aBuild
-[derivStr]: https://msg.byu.edu/papers/GLWHart_enumeration.pdf
-[AFLOWpaper]: http://materials.duke.edu/auro/AUROARTICULA/j.commatsci.2015.07.019.pdf
-[MTP]:
-https://www.sciencedirect.com/science/article/pii/S0927025618306372
+[gh]:https://www.github.com  
+[ljnabuild]: https://github.com/lancejnelson/aBuild  
+[derivStr]: https://msg.byu.edu/papers/GLWHart_enumeration.pdf  
+[AFLOWpaper]: http://materials.duke.edu/auro/AUROARTICULA/j.commatsci.2015.07.019.pdf  
+[MTP]: https://www.sciencedirect.com/science/article/pii/S0927025618306372  
 [AFLOWInstall]: http://materials.duke.edu/AFLOW/AFLOW_WORKSHOP/1_aflow_school_2019_introduction.pptx
