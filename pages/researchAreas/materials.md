@@ -132,7 +132,7 @@ automates file building and information extraction that is constantly
 being done during the model-building process.  Below you will find the
 steps needed to build an MTP, using aBuild as the automation tool.
 Anytime you run aBuild (through the `builder.py` script) you will need
-a yaml file to specify run settings.  [Here] is an example yaml file.
+a yaml file to specify run settings.  [Here][YAML] is an example yaml file.
 Make sure you modify it for your system.
 
 1. Enumerate derivative superstructures: (This is only done once per
