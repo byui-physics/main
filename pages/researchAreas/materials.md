@@ -131,6 +131,9 @@ easier, a python package called `aBuild` has been built.  aBuild
 automates file building and information extraction that is constantly
 being done during the model-building process.  Below you will find the
 steps needed to build an MTP, using aBuild as the automation tool.
+Anytime you run aBuild (through the `builder.py` script) you will need
+a yaml file to specify run settings.  [Here] is an example yaml file.
+Make sure you modify it for your system.
 
 1. Enumerate derivative superstructures: (This is only done once per
 system)  
@@ -265,3 +268,4 @@ This paper explains the algorithm used to generate derivative structures
 [AFLOWpaper]: http://materials.duke.edu/auro/AUROARTICULA/j.commatsci.2015.07.019.pdf  
 [MTP]: https://www.sciencedirect.com/science/article/pii/S0927025618306372  
 [AFLOWInstall]: http://materials.duke.edu/AFLOW/AFLOW_WORKSHOP/1_aflow_school_2019_introduction.pptx
+[YAML]:  http://byuiphysics.github.io/main/pages/researchAreas/sample.yml
