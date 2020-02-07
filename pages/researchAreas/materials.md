@@ -127,13 +127,15 @@ You will need to copy the following files to your bin
 Constructing a Moment Tensor potential is an iterative process
 wherein the model is repeatedly refined and improved until it predicts
 well across the entire search space.  To make this iterative process
-easier, a python package called `aBuild` has been built.  aBuild
+easier, a python package called `aBuild`(link [here][ljnabuild]) has been built.  `aBuild`
 automates file building and information extraction that is constantly
 being done during the model-building process.  Below you will find the
 steps needed to build an MTP, using aBuild as the automation tool.
 Anytime you run aBuild (through the `builder.py` script) you will need
 a yaml file to specify run settings.  [Here][YAML] is an example yaml file.
-Make sure you modify it for your system.
+Make sure you modify it for your system. Note: In the instructions
+below, the name of my yaml file was AgAu.yml.  You  should modify the
+command for your system.
 
 1. Enumerate derivative superstructures: (This is only done once per
 system)  
@@ -144,7 +146,9 @@ After this completes, you should have a folder called `Enum` with the
 enumeration files in there. (`struct_enum.out.<lattice>`)  You should
 only have to do this step once per system.  
 
-2. Build set of structures that defines the search space:  
+2. Now it's time to build a file that contains all possible
+groundstate crystal structures.  In other words, this file will
+define our search space:  
 ```bash
 python builder.py AgAu -setup_relax
 ```
@@ -177,9 +181,14 @@ python builder.py AgAu -setup_select_add
 ```
 This will only take a few seconds to run and when it's finished there
 will be a new job submission file located in `fitting/mtp` called:
-`jobscript_select.sh`. Submit it and wait for it to complete.  This
+`jobscript_select.sh`. Submit it:
+``` bash
+cd fitting/mtp
+sbatch jobscript_select.sh
+```
+and wait for it to complete.  This
 could take several hours to complete and in later iterations, this job
-may need the better part of a day to complete.
+may need the better part of a day to complete.  
 
 5. Setup the requested calculations: Now we need to build VASP folders for the structures that were requested be added
 into the training set:
@@ -190,7 +199,12 @@ This will generate several hundred folders inside of the folder
 `training_set`.  Each folder has the needed files to perform a
 quantum-mechanical calculation for a different crystal.  There will
 also be a job submission file located in `training_set` called
-`jobscript_vasp.sh`. Submit the job and let the calculations run.
+`jobscript_vasp.sh`. Submit the job:
+``` bash
+cd training_set
+sbatch jobscript_vasp.sh
+```
+and let the calculations run.
 Each job will need anywhere from a couple of hours to days to run.  
 
 6. Once the calculations are finished, we need to extract the results
@@ -199,10 +213,24 @@ the model:
 ```bash
 python builder.py AgAu -setup_train
 ```
-Once this is finished you will find a job submission script in
-`fitting/mtp` called `jobscript_train.sh`.  Submit this job (it will
-run in parallel) to train
-the model to the data.
+This will generate the following files in `fitting/mtp`:
+```bash
+train.cfg
+relax.ini
+state.mvs
+jobscript_train.sh
+```
+Submit the job submission script:
+``` bash
+cd fitting/mtp
+sbatch jobscript_train.sh
+```
+and wait for it to finish.  Once finished you will notice the file:
+```bash
+Trained.mtp_
+```
+located in `fitting/mtp`.  This file contains values for the model
+parameters.  
 
 7. Return to step #2 and iterate.
 
