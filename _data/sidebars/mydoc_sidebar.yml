@@ -27,7 +27,7 @@ entries:
       output: web, pdf
 
     - title: Materials Simulation
-      url: /materials.html
+      external_url: https://lancejnelson.github.io/materialsResearch/
       output: web, pdf
 
     - title: Nuclear Reaction Modeling
