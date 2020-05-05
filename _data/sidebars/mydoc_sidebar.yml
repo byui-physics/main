@@ -19,46 +19,86 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Emphasis Areas
+  - title: Research Opportunities
     output: web, pdf
     folderitems:
-    - title: Computational
-      url: /contact.html
+    - title: Balloon Team
+      url: /Balloon.html
       output: web, pdf
 
-    - title: Engineering
-      url: /syllabus.html
+    - title: Materials Simulation
+      external_url: https://lancejnelson.github.io/materialsResearch/
       output: web, pdf
-      type: homepage
 
-    - title: Medical 
-      url: /schedule.html
+    - title: Nuclear Reaction Modeling
+      url: /nuclear.html
       output: web, pdf
-      type: homepage
+
+    - title: Acoustics
+      url: /acoustics.html
+      output: web, pdf
+
+    - title: Physics Education Research
+      url: /per.html
+      output: web, pdf
+
+    - title: Surface Physics
+      url: /surface.html
+      output: web, pdf
+
+    - title: Vacuum Physics
+      url: /vacuum.html
+      output: web, pdf
+
+    - title: Atmospheric Optics
+      url: /atmosphere.html
+      output: web, pdf
+
+    - title: Positron Annihilation
+      url: /positron.html
+      output: web, pdf
+
+    - title: Astronomical Observations
+      url: /astronomy.html
+      output: web, pdf
+
+    - title: Protein Folding
+      url: /protein.html
+      output: web, pdf
+
+    - title: Microwave Scattering
+      url: /microwave.html
+      output: web, pdf
+
 
 
   - title: General Resources
     output: web, pdf
     folderitems:
     - title: Installing Python
-      url: /slides.html
+      url: /installingPython.html
       output: web, pdf
 
     - title: Python Book
-      url: /files\/equation_sheet.pdf
+      external_url: https://byuiphysics.github.io/pythonbook/
       output: web, pdf
 
     - title: Numerical
       url: /hexbin.html
       output: web, pdf
 
-    - title: Apptitude Quiz
-      url: https://byui.instructure.com\/courses\/58656\/quizzes\/829691
-      output: web, pdf
   - title: Knowledge Assessments
     output: web, pdf
     folderitems:
     - title: Calculus
       url: 
+      output: web,pdf
     - title: Python/Coding
       url: 
+      output: web,pdf
+  - title: Fun Physics Links
+    output: web, pdf
+    folderitems:
+    - title: Weather Station
+      external_url: http://weather.byui.edu/romney%20station/index.html
+      output: web, pdf

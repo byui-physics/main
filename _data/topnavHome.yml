@@ -1,6 +1,6 @@
 ## Topnav single links
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
-banner: False
+banner: True
 
 topnav:
 - title: Topnav
@@ -55,4 +55,4 @@ topnav_dropdowns:
     - title: Research Opportunities
       folderitems:
         - title: Materials Simulation
-          url: materialsoverview.html
+          url: /materialsoverview.html

@@ -1,0 +1,24 @@
+---
+title:  Lance J. Nelson
+sidebar: mydoc_sidebar
+topnav: topnavHome
+hide_sidebar: false
+accordion: true
+permalink: bio.html
+toc: false
+---
+
+<img
+src="https://lancejnelson.github.io/Faculty/images/Faculty_Photo.jpg"
+alt="" style="width:250px;height:312px;" align="right" border="1">
+
+## Biography
+
+I enjoy this and this
+
+## Teaching
+I like to teach this
+
+## Research
+
+I like to research this.

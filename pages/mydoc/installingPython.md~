@@ -1,6 +1,7 @@
 ---
 title:  Installing Python
 sidebar: mydoc_sidebar
+layout: default
 permalink: installingPython.html
 toc: true
 ---
