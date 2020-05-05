@@ -14,7 +14,6 @@ Traditionally, alloys have been composed of one main component with trace amount
 
 ## Using 'aBuild' for building an MTP model.
 
-
 [link]: https://physics.aps.org
 ## Reading
 

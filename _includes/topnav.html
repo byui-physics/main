@@ -13,7 +13,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <!-- toggle sidebar button -->
-                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+<!--                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon"
+	      class="fa fa-toggle-on"></i> Nav</a></li> -->
                 <!-- entries without drop-downs appear here -->
 
 {% assign topnav = site.data[page.topnav] %}
@@ -78,4 +79,16 @@
         </div>
         </div>
         <!-- /.container -->
-</nav>
+
+ 
+
+	</nav>
+	{% if topnav.banner %}
+        <div
+        style="color:black;font-family:Palatino;text-align:center;font-size:300%;background-color:white">
+            The Physics Department   <img
+        src="https://lancejnelson.github.io/Faculty/images/mainBanner.jpg"
+        alt="" style="width:1500px;height:312px;display:
+		      block;margin-left: auto; margin-right: auto;">
+	    </div>
+	{% endif %}

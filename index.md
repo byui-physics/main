@@ -1,14 +1,26 @@
 ---
-title: "Welcome to the Physics Department"
 keywords: sample homepage
 sidebar: mydoc_sidebar
+hide_sidebar: true
 permalink: index.html
-summary: The information contained herein is intended to serve current physics majors at BYU-Idaho.  
+topnav: topnavHome
+toc: false
 ---
 
+<span style="color:black; font-family:Verdana; font-size:35px; "> Gain an appreciation of nature’s basic
+physical concepts. </span>
 
-Most of your questions about classes, registration, emphasis areas, career opportunities, etc can be answered by your faculty mentor and/or the [student handbook][handbook].  Here you will find descriptions of research opportunities and other resources/links that are generally useful.
+<span style="color:lightblue; font-family:Verdana; font-size:25px; ">
+The BYU-Idaho Physics Department strives to develop reasoning,
+mathematical, and communication skills within a rigorous academic
+program while maintain the same student-oriented environment to
+prepare students for their chosen profession. Every class is designed
+to develop those skills while teaching students the principles of
+physics. </span>
 
+## **Join the Discovery**
+
+The Physics Department offers students a solid foundation in both classical and modern physics. The faculty members are always at the student's disposal to help guide them throughout their coursework and experience on campus. Each student has the opportunity to build personal relationships with the faculty as they are mentored towards a future career path that is best suited for them.
 
 
 [handbook]: https://www.byui.edu/documents/physics/Handbook2.pdf
