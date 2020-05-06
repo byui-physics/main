@@ -1,6 +1,6 @@
-repository: byuiphysics.github.io/PH123
+repository: byui-physics.github.io/main
 
-site_url: https://byui-physics.github.io/main/
+
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
