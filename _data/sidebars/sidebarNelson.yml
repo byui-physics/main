@@ -10,7 +10,7 @@ entries:
     output: pdf
     type: frontmatter
     folderitems:
-    - title:
+    - title: 
       url: /titlepage.html
       output: pdf
       type: frontmatter
@@ -20,7 +20,7 @@ entries:
       type: frontmatter
 
   - title: Personal
-    output: web, pdf
+    output: web,pdf
     folderitems:
     - title: Bio
       url: /bioNelson.html

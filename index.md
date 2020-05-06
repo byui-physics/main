@@ -7,16 +7,46 @@ topnav: topnavHome
 toc: false
 ---
 
-<span style="color:black; font-family:Verdana; font-size:35px; "> Gain an appreciation of nature’s basic
-physical concepts. </span>
 
-<span style="color:lightblue; font-family:Verdana; font-size:25px; ">
-The BYU-Idaho Physics Department strives to develop reasoning,
-mathematical, and communication skills within a rigorous academic
+
+
+<div style="color:black; font-size: 35px;
+font-style: normal; font-weight: 300;">
+Learn the secrets of nature
+</div>
+
+
+
+<div style="float:right;">
+<img
+src="https://byui-physics.github.io/main/images/datwylerteaching.jpg"
+alt="" style="width:400px;height:289px; margin-left:50px;
+margin-right:0px">
+<br/>
+</div>
+
+
+<div style="font-weight:300; color:#6897bb; 
+font-size:25px; text-align:right;">
+Why is the sky blue? <br/>
+Why  seen a double rainbow? <br/>
+Which conducts electricity better, gold or copper? <br/> <br/>
+</div>
+<div style="font-weight:300; color:#6897bb; font-size:20px;
+text-align: left"> 
+If you've ever found yourself asking questions like these then you
+should pursue a physics degree.  You'll be the smartest person at the
+dinner table and along the way you'll develop top-notch reasoning,
+mathematical, and communication skills.
+
+
+within a rigorous academic
 program while maintain the same student-oriented environment to
 prepare students for their chosen profession. Every class is designed
 to develop those skills while teaching students the principles of
-physics. </span>
+physics.
+</div>
+
 
 ## **Join the Discovery**
 

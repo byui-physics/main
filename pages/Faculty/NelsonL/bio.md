@@ -11,15 +11,15 @@ toc: false
 <div style="float:right;">
 <img
 src="https://byui-physics.github.io/main/images/Nelson_Photo.jpg"
-alt="" style="width:250px;height:312px;">
+alt="" style="width:250px;height:312px;margin-left:50px">
 <br/>
 
-<div style="text-align: center;">
+<div style="text-align: left;">
 	
 <span style="color:grey; font-family:Verdana; font-size:15px; ">
-<br/> Email: <a href="mailto:nelsonla@byui.edu">nelsonla@byui.edu</a> <br/>
-Phone: (208) 496-7736 <br/>
-Office: Romney 296 
+<br/> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Email: <a href="mailto:nelsonla@byui.edu">nelsonla@byui.edu</a> <br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Phone: (208) 496-7736 <br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Office: Romney 296 
 
     </span>
 </div>
@@ -28,10 +28,6 @@ Office: Romney 296
 
 ##  Biography
 
-I grew up on a small farm in Rigby, Idaho.  I have 9 younger siblings
-(4 brothers and 5 sisters).  I met my wife in the physics drop-in lab
-at BYU-Idaho nearly 15 years ago. I graduated from BYU-Idaho in 2007
-with a Bachelors degree in 
 
 
 ## Education
