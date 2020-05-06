@@ -49,7 +49,7 @@ entries:
     output: web, pdf
     folderitems:
     - title: Overview
-      url: /materialsintro.html
+      url: /materialsoverview.html
       output: web,pdf
     - title: Projects Available
       url: /ternaryAlloyPhaseDiagrams.html
