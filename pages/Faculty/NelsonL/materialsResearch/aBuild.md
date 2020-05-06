@@ -1,6 +1,6 @@
 ---
 title:  Installing aBuild
-sidebar: mydoc_sidebar
+sidebar: sidebarNelson
 permalink: aBuild.html
 toc: true
 ---

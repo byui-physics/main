@@ -1,7 +1,7 @@
 ---
 title: MaryLou setup
-sidebar: mydoc_sidebar
-permalink: MLSetups.html
+sidebar: sidebarNelson
+permalink: MLSetup.html
 toc: true
 ---
 

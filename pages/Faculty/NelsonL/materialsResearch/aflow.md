@@ -1,6 +1,6 @@
 ---
 title:  Installing AFLOW
-sidebar: mydoc_sidebar
+sidebar: sidebarNelson
 permalink: aflow.html
 toc: true
 ---

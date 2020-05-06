@@ -1,6 +1,6 @@
 ---
 title: Setting up a virtual environment
-sidebar: mydoc_sidebar
+sidebar: sidebarNelson
 permalink: virtualEnv.html
 toc: true
 ---
