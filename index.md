@@ -28,23 +28,19 @@ margin-right:0px">
 
 <div style="font-weight:300; color:#6897bb; 
 font-size:25px; text-align:right;">
-Why is the sky blue? <br/>
-Why  seen a double rainbow? <br/>
-Which conducts electricity better, gold or copper? <br/> <br/>
+Why is the sky blue but sunsets are red? <br/>
+Why does an asphalt road look like a mirror on a hot day? <br/>
+Why do microwave ovens use a rotating platform? <br/>
+Is all that physics from the movie Intestellar true?  <br/> <br/>
 </div>
 <div style="font-weight:300; color:#6897bb; font-size:20px;
 text-align: left"> 
-If you've ever found yourself asking questions like these then you
-should pursue a physics degree.  You'll be the smartest person at the
-dinner table and along the way you'll develop top-notch reasoning,
+If you'd like to know the answers to these questions, and many more, you
+should pursue a physics degree.  You'll learn fun and interesting
+things about nature and developo top-notch reasoning,
 mathematical, and communication skills.
 
 
-within a rigorous academic
-program while maintain the same student-oriented environment to
-prepare students for their chosen profession. Every class is designed
-to develop those skills while teaching students the principles of
-physics.
 </div>
 
 

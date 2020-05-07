@@ -18,6 +18,11 @@ topnav_dropdowns:
       folderitems:
         - title: Student Handbook
           external_url: http://www.byui.edu/documents/physics/Handbook2.pdf
+        - title: Python book
+          external_url: http://byui-physics.github.io/pythonbook
+        - title: PH385 Manual
+          external_url: http://byui-physics.github.io/PH385Book
+
     - title: Faculty
       folderitems:
         - title: Richard Datwyler
