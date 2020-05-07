@@ -37,7 +37,7 @@ Is all that physics from the movie Interstellar true?  <br/> <br/>
 text-align: left"> 
 If you'd like to know the answers to these questions, and many more, you
 should pursue a physics degree.  You'll learn fun and interesting
-things about nature and developo top-notch reasoning,
+things about nature and develop top-notch reasoning,
 mathematical, and communication skills.  With a bachelor's degree in
 physics you can pursue many careers including: scientist, engineer,
 medical doctor, lawyer, businessman, and more.

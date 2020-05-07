@@ -7,3 +7,6 @@
 
 
 # LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
+
+cd compute
+vasp6

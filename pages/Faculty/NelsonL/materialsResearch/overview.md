@@ -1,9 +1,8 @@
 ---
 title: "Computational Materials Research"
 keywords: sample homepage
-sidebar: sidebarNelson
+sidebar: sidebarMaterials
 permalink: materialsoverview.html
-summary: Here you will find tutorials and materials that will help you prepare for a future in computational materials research.
 ---
 
 Computational materials research involves the use of computer

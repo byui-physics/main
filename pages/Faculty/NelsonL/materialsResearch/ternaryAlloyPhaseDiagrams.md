@@ -1,6 +1,6 @@
 ---
 title:  Phase Diagrams for Ternary Alloys
-sidebar: sidebarNelson
+sidebar: sidebarMaterials
 permalink: ternaryAlloyPhaseDiagrams.html
 toc: true
 ---
@@ -81,10 +81,8 @@ some tutorials: (There is some overlap between the tutorials)
 center: [link here][ml]
 
 6. Setup your filesystem on the HPC.
-  - [Initial Setup](MLSetup.html)
-  - [Virtual Environments](virtualEnv.html)
-  - [Installing aBuild](aBuild.html)
-  - [Initial AFLOW](aflow.html)
+  - [Getting an High-Performance Computing(HPC) Account](MLSetup.html)
+  - [Installing Softwares](neededSoftwares.html)
 
 
 [steelphasediagram]: https://www.substech.com/dokuwiki/doku.php?id=iron-carbon_phase_diagram
