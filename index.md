@@ -31,14 +31,16 @@ font-size:25px; text-align:right;">
 Why is the sky blue but sunsets are red? <br/>
 Why does an asphalt road look like a mirror on a hot day? <br/>
 Why do microwave ovens use a rotating platform? <br/>
-Is all that physics from the movie Intestellar true?  <br/> <br/>
+Is all that physics from the movie Interstellar true?  <br/> <br/>
 </div>
 <div style="font-weight:300; color:#6897bb; font-size:20px;
 text-align: left"> 
 If you'd like to know the answers to these questions, and many more, you
 should pursue a physics degree.  You'll learn fun and interesting
 things about nature and developo top-notch reasoning,
-mathematical, and communication skills.
+mathematical, and communication skills.  With a bachelor's degree in
+physics you can pursue many careers including: scientist, engineer,
+medical doctor, lawyer, businessman, and more.
 
 
 </div>
