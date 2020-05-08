@@ -22,8 +22,8 @@ you get familiar with that:
 
 ## Get a supercomputing account
 
-First, request a supercomputing account at
-[the office of research computing][ml].  If you don't have byu
+Request a supercomputing account at
+[BYU's office of research computing][ml].  If you don't have BYU
 credentials, you'll be asked to register for them.  During the
 application process, you'll be asked some questions about your
 research and how you will use their resources.  When asked about your
