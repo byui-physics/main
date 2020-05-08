@@ -1,16 +1,18 @@
 {% assign sidebar = site.data.sidebars[page.sidebar].entries %}
 {% assign image = site.data.sidebars[page.sidebar].image %}
-<ul id="mysidebar" class="nav">
-  <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
+<ul style="list-style-type:none; padding-left:0px;"> <!--  id="mysidebar" class="nav" -->
+<!--  <li class="sidebarTitle">{{sidebar[0].product}} -->
+<!--  {{sidebar[0].version}}</li> -->
   {% if image %}
   <img   src="{{image}}" alt="" style="width:200px;height:250px;display:block;margin-left: auto; margin-right: auto;">
   {% endif %}
   {% for entry in sidebar %}
   {% for folder in entry.folders %}
   {% if folder.output contains "web" %}
-  <li>
-      <a title="{{folder.title}}" href="#">{{folder.title}}</a>
-      <ul>
+  <li style="font-weight:bold; color:black;"> {{folder.title}}
+<!--      <a title="{{folder.title}}" href="#">{{folder.title}}</a>-->
+      <ul style="list-style-type:square;
+	color:lightblue;padding-left:24px;font-weight:normal; color:black">
           {% for folderitem in folder.folderitems %}
           {% if folderitem.output contains "web" %}
           {% if folderitem.external_url %}

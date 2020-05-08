@@ -1,6 +1,6 @@
 ---
 title:  Building a Moment Tensor Potential
-sidebar: mydoc_sidebar
+sidebar: sidebarNelson
 permalink: mtp.html
 toc: true
 ---
@@ -9,7 +9,8 @@ toc: true
 Constructing a Moment Tensor potential is an iterative process
 wherein the model is repeatedly refined and improved until it predicts
 well across the entire search space.  To make this iterative process
-easier, a python package called `aBuild`(link [here][ljnabuild]) has been built.  `aBuild`
+easier, a python package called `aBuild`(see [here][aBuildInstall] for
+installation instructions) has been built.  `aBuild`
 automates file building and information extraction that is constantly
 being done during the model-building process.  Below you will find the
 steps needed to build an MTP, using aBuild as the automation tool.
@@ -118,5 +119,6 @@ parameters.
 
 
 
+[aBuildInstall]: /neededSoftware.html
 [ljnabuild]: https://github.com/lancejnelson/aBuild  
-[YAML]:  http://lancejnelson.github.io/materialsResearch/pages/sample.yml
+[YAML]:  http://byui-physics.github.io/main/pages/Faculty/NelsonL/materialsResearch/sample.yml

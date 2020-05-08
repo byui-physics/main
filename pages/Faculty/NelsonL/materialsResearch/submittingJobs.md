@@ -1,6 +1,6 @@
 ---
 title:  Submitting a batch job
-sidebar: sidebarMaterials
+sidebar: sidebarNelson
 permalink: submittingJobs.html
 toc: true
 ---

@@ -1,16 +1,30 @@
 ---
-title: Getting an HPC account
-sidebar: sidebarMaterials
-permalink: MLSetup.html
+title: Getting Started
+sidebar: sidebarNelson
+permalink: gettingStarted.html
 toc: true
 ---
 
 
-## Getting an Account
+Before beginning  your research project, you should do the following:
 
-You'll need to request an account at [this website][ml].  If you don't
-have byu credentials, you'll be asked to register for them.  During
-the application process, you'll be asked some questions about your
+## Unix/Linux skills
+
+You'll be using supercomputing resources which means you need to get
+good at using the unix command line.  Here are a few tutorials to help
+you get familiar with that:
+
+1. [Tutorial by Ubuntu](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+2. [Tutorial by Linux](http://linuxcommand.org/)
+
+
+
+## Get a supercomputing account
+
+First, request a supercomputing account at
+[the office of research computing][ml].  If you don't have byu
+credentials, you'll be asked to register for them.  During the
+application process, you'll be asked some questions about your
 research and how you will use their resources.  When asked about your
 research project:
 

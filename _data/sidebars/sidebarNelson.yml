@@ -2,12 +2,12 @@
 
 entries:
 - title: sidebar
-  product: 
-  version: 
+  product: Here
+  version: 1.0
   folders:
 
   - title: 
-    output: pdf
+    output: web,pdf
     type: frontmatter
     folderitems:
     - title: 
@@ -18,19 +18,17 @@ entries:
       url: /tocpage.html
       output: pdf
       type: frontmatter
-
-  - title: Personal
+      
+  - title: About Me
     output: web,pdf
     folderitems:
-    - title: Bio
+    - title: Lance Nelson
       url: /bioNelson.html
       output: web, pdf
-    - title: Schedule
+    - title: My Schedule
       url: /scheduleNelson.html
       output: web, pdf
-
-
-  - title: Classes
+  - title: Reference
     output: web, pdf
     folderitems:
     - title: Installing Python
@@ -38,19 +36,58 @@ entries:
       output: web, pdf
 
     - title: Python Book
-      external_url: https://byuiphysics.github.io/pythonbook/
+      external_url: https://byui-physics.github.io/pythonbook/
       output: web, pdf
 
-    - title: Numerical
-      url: /hexbin.html
+    - title: PH385 book
+      external_url: https://byui-physics.github.io/PH385Book/
       output: web, pdf
 
-  - title: Research
+  - title: Materials Research
     output: web, pdf
     folderitems:
-    - title: Overview
+    - title: What is Materials Research?
       url: /materialsoverview.html
-      output: web,pdf
-    - title: Projects Available
+      output: web, pdf
+    - title: Getting Started
+      url: /gettingStarted.html
+      output: web, pdf
+    - title: Installing Softwares
+      url: /neededSoftware.html
+      output: web, pdf
+    - title: NRL crystal structure database
+      external_url: https://homepage.univie.ac.at/michael.leitner/lattice/index.html
+      output: web, pdf 
+  - title: Computation
+    output: web, pdf
+    folderitems:
+    - title: Getting an HPC account
+      url: /MLSetup.html
+      output: web, pdf
+    - title: Unix tutorial (ML)
+      external_url: https://rc.byu.edu/documentation/unix-tutorial/
+      output: web, pdf
+    - title: Unix tutorial (Ubuntu)
+      external_url: https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
+      output: web, pdf
+    - title: Unix Tutorial (Linux)
+      external_url: http://linuxcommand.org/
+      output: web, pdf
+    - title: Submitting jobs on MaryLou
+      url: /submittingJobs.html
+      output: web, pdf
+    - title: Git Tutorial (basics)
+      external_url: https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+      output: web, pdf
+    - title: Git Tutorial (in depth)
+      external_url: https://www.atlassian.com/git/tutorials/setting-up-a-repository
+      output: web, pdf
+  - title: Research Projects
+    output: web, pdf
+    folderitems:
+    - title: Ternary Alloy Phase Diagrams
       url: /ternaryAlloyPhaseDiagrams.html
+      output: web,pdf
+    - title: Moment Tensor Potentials
+      url: /mtp.html
       output: web,pdf

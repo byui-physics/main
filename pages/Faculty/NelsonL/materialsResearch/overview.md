@@ -1,7 +1,7 @@
 ---
 title: "Computational Materials Research"
 keywords: sample homepage
-sidebar: sidebarMaterials
+sidebar: sidebarNelson
 permalink: materialsoverview.html
 ---
 

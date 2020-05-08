@@ -1,6 +1,6 @@
 ---
 title:  Installing Python
-sidebar: mydoc_sidebar
+sidebar: sidebarNelson
 permalink: installingPython.html
 toc: true
 ---

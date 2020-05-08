@@ -1,12 +1,12 @@
 ---
 title:  Phase Diagrams for Ternary Alloys
-sidebar: sidebarMaterials
+sidebar: sidebarNelson
 permalink: ternaryAlloyPhaseDiagrams.html
 toc: true
 ---
 
 
-## Overview
+## Overview Here
 
 A phase diagram summarizes the thermodynamic stability of a
 multi-component alloy.  In other words, it tells us how the atoms
@@ -42,7 +42,7 @@ Much experimental information exists for binary (two atom types) alloy
 systems.  The same cannot be said for ternary alloys (three atom
 types).  [Here][ternary] is a ternary phase diagram for Fe-Cr-Ni so
 you can see what they look like. Here's a fun question: How many ways
-are there to combine three different atom types among the ~190
+are there to combine three different atom types among the ~118
 elements on the periodic table? Answer: over 260,000 alloy systems.
 This research project involves choosing one of those alloy systems and
 using computer calculations and simulations to determine it's phase
@@ -68,21 +68,13 @@ Undergraduates" by Hardold Stokes and **do all of the problems**:
 2. Study about phase diagrams:
    - [Short tutorial with graphics](https://textbooks.elsevier.com/manualsprotectedtextbooks/9780750663809/Static/phase/phase1a.htm)
    - [Longer, with more detail][phaseDiagramTutorial]
-3. Learn how to use your computer from the command line.  Here are
-some tutorials: (There is some overlap between the tutorials)
-  - [HPC Tutorial][mlunixTutorial]
-  - [Linux Command-Line Tutorial (Just the basics)][ubuntuTutorial]
-  - [Linux Command-Line Tutorial (More in Depth)][linuxTutorial]
-4. Learn about
-   Git. [Here](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+4. Learn about Git. [Here](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
    is a tutorial.  There are others out there and you are welcome to
    try any of them.
-5. Setup an account with the Fulton high-performance computing (HPC).
-center: [link here][ml]
 
+5. Complete the [getting started](/gettingStarted.html) page.
 6. Setup your filesystem on the HPC.
-  - [Getting an High-Performance Computing(HPC) Account](MLSetup.html)
-  - [Installing Softwares](neededSoftwares.html)
+  - [Install AFLOW and aBuild](neededSoftware.html)
 
 
 [steelphasediagram]: https://www.substech.com/dokuwiki/doku.php?id=iron-carbon_phase_diagram
