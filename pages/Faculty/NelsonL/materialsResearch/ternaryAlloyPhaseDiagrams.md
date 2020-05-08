@@ -72,7 +72,7 @@ Undergraduates" by Hardold Stokes and **do all of the problems**:
    is a tutorial.  There are others out there and you are welcome to
    try any of them.
 
-5. Complete the [getting started](/gettingStarted.html) page.
+5. Complete the [getting started](gettingStarted.html) page.
 6. Setup your filesystem on the HPC.
   - [Install AFLOW and aBuild](neededSoftware.html)
 
