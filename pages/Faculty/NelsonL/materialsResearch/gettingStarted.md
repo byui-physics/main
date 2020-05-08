@@ -14,8 +14,9 @@ You'll be using supercomputing resources which means you need to get
 good at using the unix command line.  Here are a few tutorials to help
 you get familiar with that:
 
-1. [Tutorial by Ubuntu](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-2. [Tutorial by Linux](http://linuxcommand.org/)
+1. [Tutorial by MaryLou](https://rc.byu.edu/documentation/unix-tutorial/)
+2. [Tutorial by Ubuntu](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+3. [Tutorial by Linux](http://linuxcommand.org/)
 
 
 
