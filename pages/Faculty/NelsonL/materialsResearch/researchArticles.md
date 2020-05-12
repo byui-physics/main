@@ -1,6 +1,6 @@
 ---
 title:  Reading Material
-sidebar: mydoc_sidebar
+sidebar: sidebarNelson
 permalink: researchArticles.html
 toc: true
 ---
