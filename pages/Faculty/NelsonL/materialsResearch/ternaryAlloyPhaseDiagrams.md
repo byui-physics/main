@@ -77,7 +77,10 @@ Undergraduates" by Hardold Stokes and **do all of the problems**:
   - [Install AFLOW and aBuild](neededSoftware.html)
 
 
-[steelphasediagram]: https://www.substech.com/dokuwiki/doku.php?id=iron-carbon_phase_diagram
+
+
+
+[steeEle][lphasediagram]: https://www.substech.com/dokuwiki/doku.php?id=iron-carbon_phase_diagram
 [ternary]: http://sv.rkriz.net/classes/MSE2094_NoteBook/96ClassProj/experimental/ternary2.html
 [phaseDiagramTutorial]: https://www.asminternational.org/documents/10192/1849770/06479G_Sample.pdf
 [stokesChap1]:https://content.byui.edu/file/ceb83761-b291-4202-94a6-eb42747cfa18/1/Stokes_Chap_1.pdf
@@ -88,3 +91,5 @@ Undergraduates" by Hardold Stokes and **do all of the problems**:
 [linuxTutorial]:http://linuxcommand.org/
 [mlunixTutorial]: https://rc.byu.edu/documentation/unix-tutorial/
 [initialSetup]: MLSetup.html
+
+

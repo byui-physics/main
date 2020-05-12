@@ -22,7 +22,7 @@ entries:
   - title: About Me
     output: web,pdf
     folderitems:
-    - title: Lance Nelson
+    - title: Biography
       url: /bioNelson.html
       output: web, pdf
     - title: My Schedule
@@ -58,11 +58,26 @@ entries:
     - title: NRL crystal structure database
       external_url: https://homepage.univie.ac.at/michael.leitner/lattice/index.html
       output: web, pdf 
+    - title: Reading Material
+      url: /researchArticles.html
+      output: web, pdf
+
+
   - title: Computation
     output: web, pdf
     folderitems:
     - title: Getting an HPC account
       url: /MLSetup.html
+      output: web, pdf
+    - title: Editing files remotely
+      url: /remoteEdit.html
+      output: web, pdf
+
+    - title: Virtual Environments
+      url: /virtualEnv.html
+      output: web, pdf
+    - title: Submitting jobs on MaryLou
+      url: /submittingJobs.html
       output: web, pdf
     - title: Unix tutorial (ML)
       external_url: https://rc.byu.edu/documentation/unix-tutorial/
@@ -73,15 +88,13 @@ entries:
     - title: Unix Tutorial (Linux)
       external_url: http://linuxcommand.org/
       output: web, pdf
-    - title: Submitting jobs on MaryLou
-      url: /submittingJobs.html
-      output: web, pdf
     - title: Git Tutorial (basics)
       external_url: https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
       output: web, pdf
     - title: Git Tutorial (in depth)
       external_url: https://www.atlassian.com/git/tutorials/setting-up-a-repository
       output: web, pdf
+
   - title: Research Projects
     output: web, pdf
     folderitems:

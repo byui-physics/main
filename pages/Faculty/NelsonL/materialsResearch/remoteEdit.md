@@ -1,6 +1,6 @@
 ---
 title:  Editing remote files from local machine
-sidebar: mydoc_sidebar
+sidebar: sidebarNelson
 permalink: remoteEdit.html
 toc: true
 ---

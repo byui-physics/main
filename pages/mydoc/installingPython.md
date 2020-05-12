@@ -8,19 +8,18 @@ toc: true
 
 ## Windows 
 
-The easiest way to get started using Python is to download the
-[Enthought Canopy Package][enthought].  (Choose version 3.??)
+The easiest way to get started using Python is to download
+[Anaconda][anaconda].  (Choose version 3.??)
 
 After the download completes, run the installer.  You should notice
-that a new application appears by the name of "Enthought Canopy".
+that a new application appears by the name of "Spyder".
 Refer to [my python book][pbook] to get started using python.
 
-[enthought]: https://assets.enthought.com/downloads/
 [pbook]: https://byuiphysics.github.io/pythonbook
-
+[anaconda]:https://www.anaconda.com/products/individual
 ## Mac
 
-While you _can_ use the [Enthought Canopy Package][enthought] on a Mac, my personal preference when I code is to work at the command line. (If you don't know what that means, we should talk one-on-one)
+While you _can_ use [Anaconda][anaconda] on a Mac, my personal preference when I code is to work at the command line. (If you don't know what that means, we should talk one-on-one)
 
 Mac OS X comes with Python 2.7 out of the box.  However, I recommend that you use version 3 of python.  To verify that python is already installed, open a Terminal window and type 
 
