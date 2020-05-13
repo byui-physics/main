@@ -85,3 +85,5 @@ pip install -e ~/codes/aBuild
 ```
 
 [AFLOWInstall]: http://materials.duke.edu/AFLOW/AFLOW_WORKSHOP/1_aflow_school_2019_introduction.pptx
+[gh]:https://www.github.com  
+[ljnabuild]: https://github.com/lancejnelson/aBuild
