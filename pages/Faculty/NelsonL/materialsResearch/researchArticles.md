@@ -58,4 +58,4 @@ toc: true
 [stokes]:https://stokes.byu.edu/stokes/textbooks
 [ternarysuperalloys]:https://www.sciencedirect.com/science/article/pii/S1359645416307054
 [SOAP]:https://www.nature.com/articles/s41524-017-0027-x
-[Kresse]:/files/LNelson/VASPElectronicOptimization.pdf
+[Kresse]:https://byui-physics.github.io/main/files/LNelson/VASPElectronicOptimization.pdf
