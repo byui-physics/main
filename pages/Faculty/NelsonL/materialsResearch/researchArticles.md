@@ -29,10 +29,10 @@ toc: true
 
 1. [Best Candidates Paper][criteria2015]
 
-## VASP Pseudopotentials
+## VASP
 
 1. [AFLOW's pseudopotentials][AFLOWpaper]
-
+2. [Kresse's slides][Kresse]
 
 ## Good Books
 
@@ -58,3 +58,4 @@ toc: true
 [stokes]:https://stokes.byu.edu/stokes/textbooks
 [ternarysuperalloys]:https://www.sciencedirect.com/science/article/pii/S1359645416307054
 [SOAP]:https://www.nature.com/articles/s41524-017-0027-x
+[Kresse]:/files/LNelson/VASPElectronicOptimization.pdf
