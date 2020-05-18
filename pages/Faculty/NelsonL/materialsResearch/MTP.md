@@ -123,4 +123,4 @@ parameters.
 [aBuildInstall]: /neededSoftware.html
 [ljnabuild]: https://github.com/lancejnelson/aBuild  
 [YAML]:  http://byui-physics.github.io/main/pages/Faculty/NelsonL/materialsResearch/sample.yml
-[setupRelaxSubmission]:https://byui-physics.github.io/main/pages/Faculty/NelsonL/materialsResearch/jobscript.sh
+[setupRelaxSubmission]:https://byui-physics.github.io/main/pages/Faculty/NelsonL/materialsResearch/setupRelaxJobscript.sh
