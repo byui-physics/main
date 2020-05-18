@@ -29,19 +29,40 @@ After this completes, you should have a folder called `Enum` with the
 enumeration files in there. (`struct_enum.out.<lattice>`)  You should
 only have to do this step once per system.  
 
-2. Now it's time to build a file that contains all possible
-groundstate crystal structures.  In other words, this file will
-define our search space:  
-```bash python builder.py AgAu -setup_relax ``` The first time you run
-this, the code will build a file containing many (hundreds of
-thousands) of crystal structures.  You'll have to submit a job and let
-it run for several hours to finish.  Or you can split it up over many
-processors and let it finish in less than half an hour.
-([Here][setupRelaxSubmission] is an example submission script that
-will do that for you) When this finishes, you will have a folder
-called `fitting/mtp`.  Inside that folder you will notice the
-following files: ```bash to_relax.cfg relax.ini pot.mtp train.cfg
-jobscript_relax.sh ```
+2. Now it's time to build a file that contains all of the crystal
+structures that are considered to be candidate ground states.  It's
+important that this file be as exhaustive as possible, which means we
+should include any crystal structure that we suspect might be low in
+energy.(Likely, this means hundreds of thousands or even millions of
+crystal structures!)  The code to generate this file is:  
+```bash
+python builder.py AgAu -setup_relax
+```
+When this runs, it
+will use the information in the 'gss' section of the yaml file to
+generate the crystal structures. Due to the large number of crystals
+that will be generated, this command may take several hours to
+complete.  You can either i) submit a job and let it run overnight or
+ii) split up the file generation over many processors and let it
+finish in less than half an hour.  ([Here][setupRelaxSubmission] is an
+example submission script that will do that for you) When this
+finishes, you will have a folder called `fitting/mtp`.  Inside that
+folder you will notice the following files:
+```bash
+to_relax.cfg
+relax.ini
+pot.mtp
+train.cfg
+jobscript_relax.sh
+```
+(If you split up the job over many processors, you'll have to
+concatenate all of the files into one, like this:
+```bash
+cd fitting/mtp
+cat to_relax.cfg_* > to_relax.cfg
+cd -
+```
+)
 You are now ready to relax.  
   
 3. Once step 2 finishes, there will be a job script located in `fitting/mtp`
