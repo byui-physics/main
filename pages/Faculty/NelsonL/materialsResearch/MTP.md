@@ -35,15 +35,16 @@ define our search space:
 ```bash
 python builder.py AgAu -setup_relax
 ```
-When this finishes, you will have a folder called `fitting/mtp`.  Inside
-that folder you will notice the following files:
-```bash
-to_relax.cfg
-relax.ini
-pot.mtp
-train.cfg
-jobscript_relax.sh
-```
+
+The first time you run this, the code will build a file with many
+(hundreds of thousands) of crystal structures in one file.  You'll
+have to submit a job and let it run for several hours to finish.  Or
+you can split it up over many processors and let it finish in less
+than half an hour.  ([Here][setupRelaxSubmission] is an example
+submission script that will do that for you) When this finishes, you
+will have a folder called `fitting/mtp`.  Inside that folder you will
+notice the following files: ```bash to_relax.cfg relax.ini pot.mtp
+train.cfg jobscript_relax.sh ```
 You are now ready to relax.  
   
 3. Once step 2 finishes, there will be a job script located in `fitting/mtp`
@@ -122,3 +123,4 @@ parameters.
 [aBuildInstall]: /neededSoftware.html
 [ljnabuild]: https://github.com/lancejnelson/aBuild  
 [YAML]:  http://byui-physics.github.io/main/pages/Faculty/NelsonL/materialsResearch/sample.yml
+[setupRelaxSubmission]:https://byui-physics.github.io/main/pages/Faculty/NelsonL/materialsResearch/jobscript.sh
