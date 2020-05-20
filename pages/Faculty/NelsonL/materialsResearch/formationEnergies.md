@@ -123,7 +123,9 @@ EPS=1e-10
 ```
 
 Once that file is present, you can run ```kpoints.x``` to generate the
-```KPOINTS``` file.
+```KPOINTS``` file. (If you get an error when you try to run
+```kpoints.x```, you should complete
+"Setting up your filesystem" section [here](gettingStarted.html) first.)
 
 
 With these 4 files built: ```POSCAR```, ```INCAR```, ```KPOINTS```,
