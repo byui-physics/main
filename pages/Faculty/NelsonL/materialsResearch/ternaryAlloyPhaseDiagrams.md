@@ -75,7 +75,7 @@ Undergraduates" by Hardold Stokes and **do all of the problems**:
 5. Complete the [getting started](gettingStarted.html) page.
 6. Install software.
   - [Install AFLOW and aBuild](neededSoftware.html)
-
+7. [Perform your first materials calculation](formationEnergies.html)
 
 
 

@@ -79,6 +79,8 @@ cp ~/fsl_groups/fslg_byui_materials/vasp6_serial ~/bin/.
 cp ~/fsl_groups/fslg_byui_materials/vasp6 ~/bin/.
 cp ~/fsl_groups/fslg_byui_materials/mlp ~/bin/.
 cp ~/fsl_groups/fslg_byui_materials/makestr.x ~/bin/.
+cp ~/fsl_groups/fslg_byui_materials/kpoints.x ~/bin/.
+cp ~/fsl_groups/fslg_byui_materials/getKPoints ~/bin/.
 ```  
 
 ### Setup important system variables

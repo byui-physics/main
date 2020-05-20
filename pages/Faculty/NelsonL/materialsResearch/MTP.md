@@ -5,7 +5,7 @@ permalink: mtp.html
 toc: true
 ---
 
-### Building a MTP (Moment Tensor Potential)
+## Building an MTP (Moment Tensor Potential)
 Constructing a Moment Tensor potential is an iterative process
 wherein the model is repeatedly refined and improved until it predicts
 well across the entire search space.  To make this iterative process
@@ -20,16 +20,26 @@ Make sure you modify it for your system. Note: In the instructions
 below, the name of my yaml file was AgAu.yml.  You  should modify the
 command for your system.
 
-1. Enumerate derivative superstructures: (This is only done once per
-system)  
+### 1. Enumerate derivative superstructures
+
+In order to build the library of candidate ground states, we need to
+enumerate the candidates.  See the derivative superstructures section
+[here](researchArticles.html) for more information.  The command to
+perform the enumeration is:
+
 ```bash
 python builder.py AgAu -enum
 ```
-After this completes, you should have a folder called `Enum` with the
-enumeration files in there. (`struct_enum.out.<lattice>`)  You should
+
+When this runs it will pull information from the 'gss' section of your
+yaml file to determine which parent lattices to enumerate on.  After
+this completes, you should have a folder called `Enum` with the
+enumeration files in there. (`struct_enum.out.<lattice>`) You should
 only have to do this step once per system.  
 
-2. Now it's time to build a file that contains all of the crystal
+### 2. Define the search space
+
+Now it's time to build a file that contains all of the crystal
 structures that are considered to be candidate ground states.  It's
 important that this file be as exhaustive as possible, which means we
 should include any crystal structure that we suspect might be low in
@@ -63,20 +73,25 @@ cat to_relax.cfg_* > to_relax.cfg
 cd -
 ```
 )
-You are now ready to relax.  
-  
-3. Once step 2 finishes, there will be a job script located in `fitting/mtp`
-   that you can submit.  This job will attempt to relax the atoms in all of the
-   crystals.  (For the first iteration, this step will fail because we
-   haven't yet built a model.  That's ok)  
+
+### 3. Relax
+
+Once step 2 finishes, there will be a job script located in `fitting/mtp`
+   that you can submit.  This job will use the MTP (we haven't
+   generated one yet, but that's OK) to attempt to relax the atoms in all of the
+   crystals.  
 ``` bash
 cd fitting/mtp
 sbatch jobscript_relax.sh
 ```
 
-4. Select new structures to be added to the training set:  As the
-   model relaxes the atoms, it will find that it has to extrapolate on
-   some of them.  It saves these structures and selects a subset of
+### 4. Select
+
+   As the model relaxes the atoms, it will find that it has to
+   extrapolate on some of them. In other words, the model is making
+   calculations on a crystal structure that is very different from the
+   ones it was trained on. It saves these structures and selects
+   a subset of
    them to be added to the training set:  
 ```bash
 python builder.py AgAu -setup_select_add
@@ -89,10 +104,12 @@ cd fitting/mtp
 sbatch jobscript_select.sh
 ```
 and wait for it to complete.  This
-could take several hours to complete and in later iterations, this job
+could take several hours to complete and, in later iterations, this job
 may need the better part of a day to complete.  
 
-5. Setup the requested calculations: Now we need to build VASP folders for the structures that were requested be added
+### 5. Augment Training Set
+
+Now we need to build VASP folders for the structures that were requested be added
 into the training set:
 ```bash
 python builder.py AgAu -add
@@ -109,7 +126,9 @@ sbatch jobscript_vasp.sh
 and let the calculations run.
 Each job will need anywhere from a couple of hours to days to run.  
 
-6. Once the calculations are finished, we need to extract the results
+### 6. Build Training Set
+
+Once the calculations are finished, we need to extract the results
 and compile the data into the training set file so we can train
 the model:
 ```bash
@@ -134,7 +153,11 @@ Trained.mtp_
 located in `fitting/mtp`.  This file contains values for the model
 parameters.  
 
-7. Return to step #2 and iterate.
+### 7. Return to step #2
+
+With a trained potential, we can return to step #2 and attempt to
+relax again.  Look from step #2 to step #7 until the model successfully
+    relaxes all of the crystals in to_relax.cfg.
 
 
 

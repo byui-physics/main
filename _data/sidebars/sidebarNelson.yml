@@ -61,14 +61,13 @@ entries:
     - title: Reading Material
       url: /researchArticles.html
       output: web, pdf
-
+    - title: Calculating Formation Energies
+      url: formationEnergies.html
+      output: web,pdf
 
   - title: Computation
     output: web, pdf
     folderitems:
-    - title: Getting an HPC account
-      url: /MLSetup.html
-      output: web, pdf
     - title: Editing files remotely
       url: /remoteEdit.html
       output: web, pdf
