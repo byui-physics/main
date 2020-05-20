@@ -90,7 +90,7 @@ D
 #### INCAR
 The ```INCAR``` file contains user-specified settings that allow you
 to control what calculation is performed and how it is performed.  A
-simple ```INCAR`` looks like this:
+simple ```INCAR``` looks like this:
 
 ```bash
 PREC=high
@@ -128,8 +128,7 @@ Once that file is present, you can run ```kpoints.x``` to generate the
 "Setting up your filesystem" section [here](gettingStarted.html) first.)
 
 
-With these 4 files built: ```POSCAR```, ```INCAR```, ```KPOINTS```,
-```POTCAR```
+With these 4 files built: ```POSCAR```, ```INCAR```, ```KPOINTS```,```POTCAR```
 
 you are ready to run the DFT code.  Type ```vasp6_serial``` and watch
 it run.  It shouldn't take more than a couple of minutes to finish.
