@@ -37,7 +37,7 @@ of the details about what's going on.  Here you will find some useful
 tips for fixing problems that may arise when performing calculations.
 
 
-## Calculating Formation Energy
+## Copper-Platinum
 
 It is an experimental fact that copper and platinum form the L1\\(_1\\) crystal structure when mixed in
 equal parts.  (See [here][l11] for a
@@ -143,7 +143,7 @@ grep "free  energy" OUTCAR
 Platinum also forms on an fcc lattice and therefore your platinum
 calculation will be nearly identical to your copper calculation.  The
 only differences are that \\( a= 3.92\\) Angstroms for platinum and the
-```POTCAR``` file is differnt.
+```POTCAR``` file is different.
 
 #### ```POSCAR``` file
 Your ```POSCAR``` file should look like this:
