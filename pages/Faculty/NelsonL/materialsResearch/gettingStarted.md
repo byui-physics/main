@@ -122,4 +122,6 @@ ctrl-x ctrl-c y
 ``` bash  
 source ~/.bash_profile
 ```  
-[ml]:marylou.byu.edu
+
+
+[ml]:https://marylou.byu.edu
