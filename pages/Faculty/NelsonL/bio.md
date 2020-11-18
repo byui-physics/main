@@ -33,7 +33,7 @@ family, a well-maintained lawn, woodworking, basketball, and materials physics.
 
 
 ## Teaching
-I enjoy teaching all physics, but some of my favorites are:
+I enjoy teaching all physics, but some of my favorites are these:
 
 - PH123 - Intro to Waves, Thermodynamics, Optics (offered year round)
 - PH323 - Solid State Physics (offered odd-year fall

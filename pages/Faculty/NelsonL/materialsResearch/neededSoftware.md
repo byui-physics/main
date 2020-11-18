@@ -65,8 +65,7 @@ deactivate alloys
 2.Navigate to B. Nelson's aBuild repository (found [here][ljnabuild])  
 3.Fork B. Nelson's reposity.  This will create a copy of this code
 that is yours to edit.  
-
-4. [back on ML] Make a directory called `codes` and go into it:
+4.[back on ML] Make a directory called `codes` and go into it:
 ``` bash
 mkdir ~/codes
 cd ~/codes

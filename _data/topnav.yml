@@ -34,6 +34,8 @@ topnav_dropdowns:
           external_url: https://web.byui.edu/Directory/Employee/johnsonjo
         - title: Kevin Kelley
           external_url: https://web.byui.edu/Directory/Employee/kelleyk
+        - title: R. Todd Lines
+          external_url: https://rtlines.github.io/
         - title: Stephen McNeil
           external_url: https://web.byui.edu/Directory/Employee/mcneils
         - title: Lance Nelson

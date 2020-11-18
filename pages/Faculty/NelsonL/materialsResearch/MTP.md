@@ -126,6 +126,21 @@ sbatch jobscript_vasp.sh
 and let the calculations run.
 Each job will need anywhere from a couple of hours to days to run.  
 
+#### Calculations that have errors.
+  Sometimes a calculation will not finish correctly for one reason or
+  another.  `aBuild` has a mode called `-status` that will check all
+  of the calculation folders for errors.   You can run it like this:
+
+```bash
+python3 builder.py AgAu -status
+```
+
+This will create files entitled `status.<runcode>`, where `<runcode>`
+can be one of :  running, done, unconverged, and errors.  If you have
+unconverged or erroneous calculations, you must investigate the
+problem and restart the calculation before moving on.  See
+[this page][vaspdebug] for help finding and fixing vasp errors.
+
 ### 6. Build Training Set
 
 Once the calculations are finished, we need to extract the results
@@ -165,3 +180,4 @@ relax again.  Look from step #2 to step #7 until the model successfully
 [ljnabuild]: https://github.com/lancejnelson/aBuild  
 [YAML]:  http://byui-physics.github.io/main/pages/Faculty/NelsonL/materialsResearch/sample.yml
 [setupRelaxSubmission]:https://byui-physics.github.io/main/pages/Faculty/NelsonL/materialsResearch/setupRelaxJobscript.sh
+[YAML]:  /vaspTroubleshooting.html

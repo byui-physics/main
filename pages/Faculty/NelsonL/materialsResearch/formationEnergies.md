@@ -239,10 +239,10 @@ unmixed copper and platinum atoms.  However, one critical question
 remains:  How can we be certain that there isn't a different crystal
 structure with a formation energy that is even smaller than for
 L1\\(_1\\)?  If we were to find one, it's formation would be favored
-over L1\\(_1\\).   Hopefully, you can see the need to perform
-exhaustive searches over large sets of crystals to find the ground
-states. 
-
+over L1\\(_1\\).   Since there are an infinite number of candidate
+crystal structures, we can never be 100 % sure that the ground states
+have been found.  The best we can do is to search over a very large
+set of crystals that are suspected to be groundstates.
 
 ### You try
 
