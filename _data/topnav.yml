@@ -52,8 +52,6 @@ topnav_dropdowns:
           external_url: https://web.byui.edu/Directory/Employee/turcottes
         - title: Matt Zachreson
           external_url: https://web.byui.edu/Directory/Employee/zacheresonm
-        - title: Aileen Godfrey
-          external_url: https://web.byui.edu/Directory/Employee/godfreya
     - title: Classes
       folderitems:
         - title: PH121
