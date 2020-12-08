@@ -6,11 +6,11 @@ entries:
   version: 1.0
   folders:
 
-  - title: 
+  - title:
     output: web,pdf
     type: frontmatter
     folderitems:
-    - title: 
+    - title:
       url: /titlepage.html
       output: pdf
       type: frontmatter
@@ -18,7 +18,7 @@ entries:
       url: /tocpage.html
       output: pdf
       type: frontmatter
-      
+
   - title: About Me
     output: web,pdf
     folderitems:
@@ -57,7 +57,7 @@ entries:
       output: web, pdf
     - title: NRL crystal structure database
       external_url: https://homepage.univie.ac.at/michael.leitner/lattice/index.html
-      output: web, pdf 
+      output: web, pdf
     - title: Reading Material
       url: /researchArticles.html
       output: web, pdf
@@ -102,4 +102,7 @@ entries:
       output: web,pdf
     - title: Moment Tensor Potentials
       url: /mtp.html
+      output: web,pdf
+    - title: LAMMPS (Molecular Dynamics)
+      url: /lammps.html
       output: web,pdf
