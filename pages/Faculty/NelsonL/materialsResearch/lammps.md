@@ -17,5 +17,5 @@ toc: true
 
 
 
-[lammpsinput]: https://byui-physics.github.io/pages/Faculty/NelsonL/materialsResearch/lmp.inp
+[lammpsinput]: https://byui-physics.github.io/main/pages/Faculty/NelsonL/materialsResearch/lmp.inp
 
