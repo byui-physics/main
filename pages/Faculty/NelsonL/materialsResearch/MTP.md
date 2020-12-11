@@ -176,7 +176,7 @@ relax again.  Look from step #2 to step #7 until the model successfully
 
 
 
-[aBuildInstall]: /neededSoftware.html
+[aBuildInstall]: /main/neededSoftware.html
 [ljnabuild]: https://github.com/lancejnelson/aBuild  
 [YAML]:  http://byui-physics.github.io/main/pages/Faculty/NelsonL/materialsResearch/sample.yml
 [setupRelaxSubmission]:https://byui-physics.github.io/main/pages/Faculty/NelsonL/materialsResearch/setupRelaxJobscript.sh
