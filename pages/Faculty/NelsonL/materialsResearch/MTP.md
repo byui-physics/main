@@ -28,7 +28,7 @@ enumerate the candidates.  See the derivative superstructures section
 perform the enumeration is:
 
 ```bash
-python builder.py AgAu -enum
+python builder.py AgAu -enum -dataset='gss'
 ```
 
 When this runs it will pull information from the 'gss' section of your
