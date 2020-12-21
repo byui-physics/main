@@ -30,7 +30,8 @@ perform the enumeration is:
 ```bash
 python builder.py AgAu -enum -dataset='gss'
 ```
-
+ (Note: the "dataset" option to the command specifiies which dataset in the YAML file
+ will be used to perform the enumeration)
 When this runs it will pull information from the 'gss' section of your
 yaml file to determine which parent lattices to enumerate on.  After
 this completes, you should have a folder called `Enum` with the
