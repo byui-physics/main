@@ -5,10 +5,8 @@ hide_sidebar: true
 permalink: theses.html
 topnav: topnavHome
 toc: false
+title: Student Theses
 ---
-
-
-## Student Theses/Supplementary Material
 
 1. Hadassah Griffin (Thesis, [Code][griffinH])
 
