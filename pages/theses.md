@@ -16,6 +16,6 @@ toc: false
 
 
 
-[griffinH]: www.byui-physics.gitub.io/main/files/theses/Griffin_H/SeniorThesisCodeGriffinH.zip
+[griffinH]: https://byui-physics.gitub.io/main/files/theses/Griffin_H/SeniorThesisCodeGriffinH.zip
 
 
