@@ -14,6 +14,6 @@ title: Student Theses
 
 
 
-[griffinH]: https://byui-physics.gitub.io/main/files/theses/Griffin_H/SeniorThesisCodeGriffinH.zip
+[griffinH]: https://github.com/byui-physics/main/blob/master/files/theses/Griffin_H/SeniorThesisCodeGriffnH.zip?raw=true
 
 
