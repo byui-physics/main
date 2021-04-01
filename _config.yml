@@ -5,7 +5,7 @@ output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
 topnav_title: |
-   BYU - Idaho | Physics
+   BYU - Idaho | Physics 
 # this appears on the top navigation bar next to the home button
 
 site_title: BYU - Idaho Physics (Github version)
@@ -79,7 +79,7 @@ defaults:
       comments: true
       search: true
       sidebar: home_sidebar
-      topnav: topnav
+      topnav: topnavHome
   -
     scope:
       path: ""
@@ -99,7 +99,7 @@ defaults:
       comments: true
       search: true
       sidebar: home_sidebar
-      topnav: topnav
+      topnav: topnavHome
 
 # these are defaults used for the frontmatter for these file types
 
