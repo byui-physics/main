@@ -8,7 +8,7 @@ toc: false
 ---
 
 
-# Student Theses/Supplementary Material
+## Student Theses/Supplementary Material
 
 1. Hadassah Griffin (Thesis, [Code][griffinH])
 
