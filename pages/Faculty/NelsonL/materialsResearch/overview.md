@@ -3,6 +3,7 @@ title: "Computational Materials Research"
 keywords: sample homepage
 sidebar: sidebarNelson
 permalink: materialsoverview.html
+topnav: topnav
 ---
 
 Computational materials research involves the use of computer
@@ -34,5 +35,3 @@ that you could work on in my group.
 
 See the sidebar on the left for example projects that you could jump
 in on.
-
-
