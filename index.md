@@ -28,7 +28,7 @@ margin-right:0px">
 
 <div style="font-weight:300; color:#6897bb; 
 font-size:25px; text-align:right;">
-Why is the sky blue but sunsets are red? <br/>
+Why is the sky red but sunsets are red? <br/>
 Why does an asphalt road look like a mirror on a hot day? <br/>
 Why do microwave ovens use a rotating platform? <br/>
 Is all that physics from the movie Interstellar true?  <br/> <br/>
