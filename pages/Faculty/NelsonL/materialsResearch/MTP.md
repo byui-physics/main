@@ -3,6 +3,7 @@ title:  Building a Moment Tensor Potential
 sidebar: sidebarNelson
 permalink: mtp.html
 toc: true
+topnav: topnav
 ---
 
 ## Building an MTP (Moment Tensor Potential)
