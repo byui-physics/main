@@ -3,6 +3,7 @@ title:  Installing Python
 sidebar: sidebarNelson
 permalink: installingPython.html
 toc: true
+topnav: topnav
 ---
 
 
