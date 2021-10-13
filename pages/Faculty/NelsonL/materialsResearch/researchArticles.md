@@ -3,7 +3,7 @@ title:  Reading Material
 sidebar: sidebarNelson
 permalink: researchArticles.html
 toc: true
-topnav:topnav
+topnav: topnav
 ---
 
 
