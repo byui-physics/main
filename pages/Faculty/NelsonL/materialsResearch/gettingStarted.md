@@ -3,6 +3,7 @@ title: Getting Started
 sidebar: sidebarNelson
 permalink: gettingStarted.html
 toc: true
+topnav: topnav
 ---
 
 
