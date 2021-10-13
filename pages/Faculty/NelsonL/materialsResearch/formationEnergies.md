@@ -3,6 +3,7 @@ title: Calculating Formation Energies
 keywords: sample homepage
 sidebar: sidebarNelson
 permalink: formationEnergies.html
+topnav: topnav
 ---
 
 <script type="text/javascript"

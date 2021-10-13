@@ -3,6 +3,7 @@ title:  Installing necessary software
 sidebar: sidebarNelson
 permalink: neededSoftware.html
 toc: true
+topnav: topnav
 summary: Instruction for installing important softwares.
 ---
 

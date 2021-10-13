@@ -3,6 +3,7 @@ title:  LAMMPS usage
 sidebar: sidebarNelson
 permalink: lammps.html
 toc: true
+topnav: topnav
 ---
 
 

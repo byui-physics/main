@@ -3,6 +3,7 @@ title: Virtual Environments
 sidebar: sidebarNelson
 permalink: virtualEnv.html
 toc: true
+topnav: topnav
 ---
 
 Python applications frequently use packages that are not standard.

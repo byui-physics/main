@@ -2,6 +2,7 @@
 title:  Working at the command line
 sidebar: mydoc_sidebar
 permalink: commandLine.html
+topnav: topnav
 toc: true
 ---
 

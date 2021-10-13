@@ -3,6 +3,7 @@ title:  Editing remote files from local machine
 sidebar: sidebarNelson
 permalink: remoteEdit.html
 toc: true
+topnav: topnav
 ---
 
 ### Editing ML files remotely

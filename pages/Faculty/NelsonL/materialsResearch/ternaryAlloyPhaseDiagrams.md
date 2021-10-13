@@ -3,6 +3,7 @@ title:  Phase Diagrams for Ternary Alloys
 sidebar: sidebarNelson
 permalink: ternaryAlloyPhaseDiagrams.html
 toc: true
+topnav: topnav
 ---
 
 

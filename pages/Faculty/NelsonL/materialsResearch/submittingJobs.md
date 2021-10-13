@@ -3,6 +3,7 @@ title:  Submitting a batch job
 sidebar: sidebarNelson
 permalink: submittingJobs.html
 toc: true
+topnav: topnav
 ---
 
 
