@@ -9,7 +9,7 @@ topnav: topnav
 <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-Lance The formation energy of a crystal structure is an important quantity
+The formation energy of a crystal structure is an important quantity
 for determining whether it's formation is favored over unmixed atoms.
 The equation that we will use for calculating formation energies is:
 
