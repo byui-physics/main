@@ -22,6 +22,8 @@ topnav_dropdowns:
           external_url: http://byui-physics.github.io/pythonbook
         - title: PH385 Manual
           external_url: http://byui-physics.github.io/PH385Book
+        - title: PH135 Manual
+          external_url: http://lancejnelson.github.io/PH135
         - title: Student Theses
           url: theses.html
 
